@@ -1,4 +1,12 @@
+
+только один раз 
+git config --global user.email "tleugazy98@gmail.com"
+git config --global user.name "kirigaikabuto"
+
 echo "# test_lessson_13" >> README.md
 git init
-git add Readme.md
+git add .
 git commit -m "first commit"
+git remote add origin https://github.com/kirigaikabuto/test_lessson_13.git
+git push -u origin master
+                
